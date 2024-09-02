@@ -1,0 +1,35 @@
+.container{
+    width: 500px;
+  margin-left: 350px;
+  margin-top: 150px;
+  border-radius: 5px;
+  border:dotted 2px white;
+  background-image: url('./assets/1img.jpg');
+
+}
+h1{
+  padding: 20px;
+  font-size: x-large;
+  text-align: center;
+
+}
+ 
+input{
+  margin-left: 150px;background-color:black;color: white;
+}
+button{
+  background-color:rgb(179, 202, 210);margin-left: 50px;border-radius: 5px;padding: 3px;
+}
+.box2{
+  margin-top:80px;margin-left: 50px;color: white;margin-bottom: 50px;
+ 
+}
+.up{
+  background-color: red;padding: 5px;border-radius: 8px;margin-bottom: 20px;
+}
+.edit{margin-top: 50px;margin-bottom: 20px;}
+.b1{background-color: red;margin-left: 150px;padding: 5px;border-radius: 10px;}
+.b2{background-color: green;margin-left: 50px;padding: 5px;border-radius: 10px;}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
